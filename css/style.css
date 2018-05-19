@@ -21,7 +21,7 @@ a {
 a:hover, a:active, a:focus {
   color: #51d8af;
   outline: none;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
@@ -160,6 +160,10 @@ h1, h2, h3, h4, h5, h6 {
   #header #logo img {
     max-height: 40px;
   }
+}
+
+.facebook a:hover{
+  color: #51d8af;
 }
 
 /*--------------------------------------------------------------
@@ -668,6 +672,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 0;
     text-align: center;
   }
+}
+
+.description{
+  height: 150px;
+  overflow: auto;
 }
 
 /* Clients Section
